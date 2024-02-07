@@ -1,0 +1,188 @@
+
+/*corpo do texto*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+/*container cabeçalho; conforme div no html*/
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*cabeçalho e rodapé*/
+header, footer {
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #fff;
+}
+
+/*ajustando a caixa do menu sanduiche*/
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/*menu de navegação*/
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+/*estilizar os elementos dentro do menu*/
+nav li {
+    list-style: none; /*para remover os pontos brancos no inicio da lista*/
+    display:inline; /*para colocar os elementos um ao lado do outro*/
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold; /*para colocar fonte em negrito*/
+    text-transform: uppercase; /*letras maiúsculas*/
+}
+
+/*para mudar a cor do link e remover o underline do menu*/
+nav li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display:block;
+    margin-bottom: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-right:24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.lista-veiculos {
+    flex-wrap:wrap;
+}
+
+.lista-veiculos li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.lista-veiculos li img{
+    max-width: 100%;
+}
+
+.lista-veiculos li h3{
+    margin: 16px 0;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+/*estilizar botão 'tenho interesse'*/
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+/*continuação estilizar botão 'tenho interesse' e preço */
+.price {
+    margin: 16px 0;
+    display: block;
+
+}
+
+/*estilizar preço antigo */
+.price del{
+    color: #ccc;
+    font-size: 14px;
+}
+
+/*estilizar formulário de contato */
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+/*para que a caixa de texto do campo mensagem tenha um tamanho fixo*/
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+/*para limitar o tamanho do formulário*/
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
+
