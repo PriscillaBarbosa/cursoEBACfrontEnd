@@ -1,0 +1,72 @@
+/*corpo do texto*/
+*{
+    margin: 20;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+header {
+    background-color: #c5e1e1;
+    color: #1f1d1d;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align:left;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #119759;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.form-campo{
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
