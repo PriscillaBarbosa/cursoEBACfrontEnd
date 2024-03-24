@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebac Módulo 13 - Exercício Bootstrap avançado </title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <div class="container pt-0">
+            <div class="container-header d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="./patinha.png"/>
+            </div>
+        </div>
+    
+    <div class="container">
+        <div id="carousel-img" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100 img-fluid"  src="https://i0.statig.com.br/bancodeimagens/e2/v5/i2/e2v5i29vfj6tf45sqg25v45sx.jpg">
+                    <div class="carousel-caption">
+                        <h2>Acolha</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100 img-fluid" src="https://midias.agazeta.com.br/2024/01/25/vira-lata-caramelo-pode-se-tornar-manifestacao-cultural-imaterial-do-brasil-1992779.jpg">
+                    <div class="carousel-caption">
+                        <h2>Ame</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100 img-fluid" src="https://i0.statig.com.br/bancodeimagens/1k/pj/fl/1kpjfl1wypkl5lkzfy8wlghhv.jpg">
+                    <div class="carousel-caption">
+                        <h2>Adote</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-img" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-img" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-img" class="active" data-bs-slide-to="0" ></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="2" ></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 p-3">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        <h4>Vira-lata Caramelo</h4>
+                    </div>
+                    <img src="https://t1.ea.ltmcdn.com/pt/razas/5/3/7/vira-lata-caramelo_735_0_600.jpg" class="card-img-top card-img-bottom" />
+                    <div class="card-body">
+                        <h6 class="card-subtitle">Tudo sobre ele que é a cara do Brasil</h6><hr>
+                        <p class="card-text">
+                            Um ícone da cultura popular brasileira. Quem há de negar que o vira-lata caramelo representa o Brasil mais que samba e futebol? Muito provavelmente você é próximo de algum cachorro como este; seja seu, de algum amigo, ou de alguém da família. 
+                        </p>
+                        <a href="https://www.petlove.com.br/dicas/cachorro-vira-lata-caramelo" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="https://i.pinimg.com/564x/2a/79/4f/2a794f28ba02bad75520834df94223b1.jpg"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Origem</h4><hr>
+                            <p class="card-text">
+                            Os mais queridos no Brasil estão presentes em 41% dos lares com cachorro.</p>
+                        <a href="https://revistaforum.com.br/brasil/2023/5/30/voc-sabe-origem-do-vira-lata-caramelo-mascote-oficial-do-brasil-136844.html" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Adoção</h4><hr> 
+                    </div>
+                    <img src="https://www.petz.com.br/blog/wp-content/uploads/2019/05/quantos-anos-vive-um-cachorro-vira-lata-1.jpg"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Adotar é um ato de amor e responsabilidade</h4>
+                        <p class="card-text">
+                            Existem várias instituições no Brasil onde é possível adotar um Caramelo ou outro SRD. Abaixo você encontra os links para os sites de algumas destas instituições. Seu aumigo te espera!
+                        </p>
+                        <a target="_blank" href="https://www.amigonaosecompra.com.br/viralatinha.bh?" class="btn btn-primary m-1">ONG Amigo não se Compra</a>
+                        <a target="_blank" href="https://clubedosviralatas.org.br/adote-a-alegria/" class="btn btn-primary m-1">ONG Clube dos Vira-latas</a>
+                        <a target="_blank" href="https://caoviver.com.br/" class="btn btn-primary m-1">ONG Cãoviver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-0">
+        <div class="container-header d-flex justify-content-center align-items-center">
+            <footer><h5>Feito por Priscilla B | Março 2024 | EBAC Engenheiro Front-End</h5></footer>
+        </div>
+    </div>
+
+
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    
+    
+</body>
+</html>

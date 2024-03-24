@@ -1,0 +1,39 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.container-header, 
+.footer {
+    display:block;
+    background-color: #A65221;
+    color:#fff;
+    padding: 16px 0;
+    margin: 16px 0;
+}
+
+.img-fluid {
+    width: 10%;
+    height: 10%;
+}
+
+h1, h5 {
+    display: block;
+    padding: auto;
+}
+
+.carousel-inner {
+    max-width: 100%;
+    height: 20em;
+}
+
+.card-img-overlay {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.col-4 {
+    padding: 16px;
+}
